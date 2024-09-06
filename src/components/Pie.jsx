@@ -28,8 +28,8 @@ function Pie() {
       chartType="PieChart"
       data={data}
       options={options}
-      width={"50%"}
-      height={"250px"} // Increased height to accommodate legend
+      width={"100%"}
+      height={"300px"} // Increased height to accommodate legend
     />
   );
 }
