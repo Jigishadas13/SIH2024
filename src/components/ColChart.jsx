@@ -16,11 +16,12 @@ const data = [
 
 const ColChart = () => {
   return (
-    <div className="bg-black w-full p-4">
+    <div className="bg-black w-full p-4 pt-120">
       <Chart
         chartType="ColumnChart"
-        width={"70%"}
-        height={"400px"}
+        width={"100%"}
+        height={"300px"}
+
         options={{
           backgroundColor: "transparent",
           animation: {
