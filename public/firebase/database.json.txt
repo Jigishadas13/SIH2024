@@ -1,1 +1,55 @@
+{
+  "states": {
+    "Odisha": {
+      "carbonEmissions": 1500,
+      "methaneEmissions": 120,
+      "afforestationArea": 350
+    },
+    "Jharkhand": {
+      "carbonEmissions": 1100,
+      "methaneEmissions": 95,
+      "afforestationArea": 400
+    },
+    "Chhattisgarh": {
+      "carbonEmissions": 1700,
+      "methaneEmissions": 150,
+      "afforestationArea": 250
+    },
+    "West Bengal": {
+      "carbonEmissions": 900,
+      "methaneEmissions": 100,
+      "afforestationArea": 450
+    },
+    "Madhya Pradesh": {
+      "carbonEmissions": 1300,
+      "methaneEmissions": 130,
+      "afforestationArea": 300
+    },
+    "Telangana": {
+      "carbonEmissions": 1400,
+      "methaneEmissions": 110,
+      "afforestationArea": 370
+    },
+    "Maharashtra": {
+      "carbonEmissions": 1800,
+      "methaneEmissions": 160,
+      "afforestationArea": 280
+    },
+    "Meghalaya": {
+      "carbonEmissions": 1000,
+      "methaneEmissions": 90,
+      "afforestationArea": 420
+    },
+    "Nagaland": {
+      "carbonEmissions": 950,
+      "methaneEmissions": 80,
+      "afforestationArea": 500
+    },
+    "Arunachal Pradesh": {
+      "carbonEmissions": 800,
+      "methaneEmissions": 70,
+      "afforestationArea": 550
+    }
+  }
+}
 
