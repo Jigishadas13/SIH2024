@@ -22,6 +22,12 @@ export default function App() {
     </Router>
   );
 }*/
+     <Router>
+      <Routes>
+        <Route path="/" element={<Cards />} />  
+        <Route path="/carboncredits" element={<CarbonCredits/>} />  
+      </Routes>
+    </Router>
     
     
   );
