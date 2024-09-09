@@ -30,6 +30,8 @@ function Cards() {
   const handleClickMore = (title) => {
     if (title === 'AFFORESTATION') {
       navigate('/afforestation');  // Navigate to AfforestationAnalytics page
+    } else if (title === 'CARBON CREDITS') {
+      navigate('/carboncredits');  // Navigate to Carbon Credits page
     }
   };
 
@@ -52,7 +54,7 @@ function Cards() {
                   className='bg-gray-900 text-white text-lg px-6 py-1 rounded-xl border-2 border-yellow-300 hover:bg-yellow-300 hover:bg-opacity-35 hover:text-gray-900 transition duration-300 ease-in-out'
                   onClick={() => handleClickMore(d.title)}  // Call handleClickMore on button click
                 >
-                  Click More
+                  Click Here
                 </button>
               </div>
             </div>
@@ -82,7 +84,7 @@ const data = [
   {
     title: 'CARBON CREDITS',
     img: '/images/CARBONCREDITS.png',
-    description: 'Displays the Carbon Credit Score of the coal mine'
+    description: 'Displays the available lands for increasing credits.'
   }
 ];
 
