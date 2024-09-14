@@ -26,6 +26,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Cards />} />  
         <Route path="/carboncredits" element={<CarbonCredits/>} />  
+         <Route path="/carbonemission" element={<CarbonEmission />} />
       </Routes>
     </Router>
     
